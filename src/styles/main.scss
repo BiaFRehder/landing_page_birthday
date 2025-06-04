@@ -1,0 +1,42 @@
+@use 'variables';
+@use 'hero';
+@use 'event';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    color: variables.$secondaryTextColor;
+    background-color: variables.$buttonColor;
+    border-radius: 12px;
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+}
+
+.event__details__button {
+    display: block;
+    margin: 40px 0;
+    justify-items: center;
+    color: variables.$purple;
+    background-color: variables.$secondaryTextColor;
+}
