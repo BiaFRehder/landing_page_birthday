@@ -1,6 +1,6 @@
 AOS.init();
 
-const eventDate = new Date("Jul 20, 2025 19:00:00");
+const eventDate = new Date("Jul 20, 2026 19:00:00");
 const timeStampEvent = eventDate.getTime();
 
 console.log(timeStampEvent);
